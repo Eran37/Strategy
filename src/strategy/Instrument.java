@@ -2,6 +2,6 @@ package strategy;
 
 public interface Instrument {
 
-    String instrument();
+    String myInstrument();
 
 }

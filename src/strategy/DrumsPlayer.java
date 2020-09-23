@@ -11,6 +11,6 @@ public class DrumsPlayer extends Player {
 
     @Override
     protected String myInstrument() {
-        return String.format("Hello! I Am %s, and I play %s", name, instrument.instrument());
+        return String.format("Hello! I Am %s, and I play %s", name, instrument.myInstrument());
     }
 }

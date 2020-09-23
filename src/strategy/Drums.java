@@ -3,7 +3,7 @@ package strategy;
 public class Drums implements Instrument {
 
     @Override
-    public String instrument() {
+    public String myInstrument() {
         return "Drums";
     }
 }

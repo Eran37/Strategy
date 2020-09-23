@@ -8,15 +8,15 @@ public class Main {
         Player aviad = new DrumsPlayer("Aviad");
 
         System.out.println("*******Running An Example Of Strategy*********");
-        printAnimals(eran, aviad);
+        printPlayers(eran, aviad);
         System.out.println("**********Setting New Instruments************");
         eran.setInstrument(new Drums());
         aviad.setInstrument(new Guitar());
-        printAnimals(eran, aviad);
+        printPlayers(eran, aviad);
 
     }
 
-    public static void printAnimals(Player... players){
+    private static void printPlayers(Player... players){
         for (Player player: players)
             System.out.println(player.myInstrument());
     }
